@@ -1,0 +1,33 @@
+/* #region Common Rules */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+/* #endregion Common Rules */
+
+/* #region Utilities */
+:root {
+    --sustenibility: #008000;
+    --dark: #1A1A1A;
+    --discount: #FF0000;
+    --primary: #FF6900;
+    --light: #FFFFFF;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+/* #endregion Utilities */
