@@ -35,6 +35,10 @@ body{
 .right {
     text-align: right;
 }
+
+.margin_1 {
+    margin: 1rem;
+}
 /* #endregion Utilities */
 
 /* #region flex grid */
@@ -124,6 +128,57 @@ header a {
 /* #endregion Header */
 
 /* #region Main */
+main {
+    padding: 3rem 0;
+}
+
+.card {
+    position: relative;
+}
+
+.photo-1 {
+    background-image: url('../img/1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.like {
+    background-color: var(--dark-light);
+    padding: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
+
+.label {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    display: flex;
+}
+
+.discount {
+    background-color: var(--discount);
+    padding: 0.4rem;
+    color: var(--light);
+}
+
+.sustenibility {
+    background-color: var(--sustenibility);
+    padding: 0.4rem;
+    color: var(--light);
+    margin-left: 0.2rem;
+}
+
+.price {
+    color: var(--discount);
+    text-transform: uppercase;
+}
+
+.price_discounted {
+
+}
+
 
 /* #endregion Main */
 
