@@ -155,7 +155,7 @@ main .col-4 {
 
 .label {
     position: absolute;
-    bottom: 45px;
+    bottom: 110px;
     left: 0;
     display: flex;
     z-index: 100;
